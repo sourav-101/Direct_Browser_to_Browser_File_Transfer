@@ -14,7 +14,7 @@ const io = new Server(httpServer, {
     // origin: 'https://direct-browser-to-browser-file-tran-xi.vercel.app',
     origin: [
         "http://localhost:5173",
-        "https://peerlink-p2p.vercel.app/",
+        "https://peerlink-p2p.vercel.app",
     ],
     methods: ['GET', 'POST'],
   },
