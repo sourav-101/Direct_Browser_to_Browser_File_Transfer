@@ -1,0 +1,16 @@
+{
+  "name": "Direct_Browser_to_Browser_File_Transfer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "cors": "^2.8.5",
+    "nanoid": "^5.0.7"
+  }
+}
