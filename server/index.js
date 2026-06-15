@@ -11,7 +11,11 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://direct-browser-to-browser-file-tran-xi.vercel.app',
+    // origin: 'https://direct-browser-to-browser-file-tran-xi.vercel.app',
+    origin: [
+        "http://localhost:5173",
+        "https://peerlink-p2p.vercel.app/",
+    ],
     methods: ['GET', 'POST'],
   },
 });
