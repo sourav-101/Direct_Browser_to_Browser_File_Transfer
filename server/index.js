@@ -11,7 +11,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: '*', // tighten this to your real frontend URL once deployed
+    origin: 'https://direct-browser-to-browser-file-tran-xi.vercel.app',
     methods: ['GET', 'POST'],
   },
 });
